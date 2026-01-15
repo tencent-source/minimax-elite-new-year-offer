@@ -523,14 +523,18 @@ body {
 /* Hero Image */
 .hero-image-container {
     position: relative;
+    min-height: 300px;
 }
 
 .hero-model {
     width: 100%;
     max-width: 400px;
+    min-height: 400px;
     border-radius: 20px;
     border: 3px solid var(--gold);
     box-shadow: var(--shadow-gold);
+    object-fit: cover;
+    background: linear-gradient(135deg, var(--primary-red) 0%, var(--deep-red) 100%);
 }
 
 .hero-image-badge {
